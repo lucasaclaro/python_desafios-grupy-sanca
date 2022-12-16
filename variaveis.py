@@ -26,3 +26,23 @@ print(f'''\nDadas as notas {n1}, {n2}, {n3} e {n4}, seguem as médias:\n
       Média aritimética: {media_aritimetica:.2f},\n
       Média geométrica: {media_geometrica:.2f},\n
       Média harmônica: {media_harmonica:.2f}.''')
+
+
+### Dada a frase Python é muito legal., use fatiamento para dar nome às variáveis contendo cada palavra. O resultado final deve ser:
+
+# frase = "Python é muito legal."
+
+pal1 = 'Python'
+pal2 = 'é'
+pal3 = 'muito'
+pal4 = 'legal'
+frase = f'{pal1} {pal2} {pal3} {pal4}.'
+qtd_letras = len(pal1) + len(pal2) + len(pal3) + len(pal4)
+print(frase)
+
+# Qual o tamanho dessa frase? E qual o tamanho de cada palavra?
+print(f'O tamanho da frase é de {qtd_letras} letras.')
+print(f'O tamanho da palavra "{pal1}" é de {len(pal1)} letras.')
+print(f'O tamanho da palavra "{pal2}" é de {len(pal2)} letra.')
+print(f'O tamanho da palavra "{pal3}" é de {len(pal3)} letras.')
+print(f'O tamanho da palavra "{pal4}" é de {len(pal4)} letras.')
